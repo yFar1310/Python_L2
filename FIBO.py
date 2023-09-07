@@ -1,7 +1,12 @@
+def fibonacci_recursive(n):
+    if n <= 0:
+        return 0
+    elif n == 1:
+        return 1
+    else:
+        return fibonacci_recursive(n - 1) + fibonacci_recursive(n - 2)
 
-
-somme =0 
-  for i in range(101):
-      for j in range(101):
-          somme +=i*j
-   print(somme)
+# Exemple d'utilisation
+n_terms = 10  # Nombre de termes à afficher
+for i in range(n_terms):
+    print(fibonacci_recursive(i))
