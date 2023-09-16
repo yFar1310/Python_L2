@@ -5,6 +5,7 @@ Created on Thu Nov  3 13:16:44 2022
 @author: Farehan Yahya
 """
 
+
 def somme_chiffres(n):
     s=0
     while n!=0:
