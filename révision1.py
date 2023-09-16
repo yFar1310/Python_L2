@@ -72,8 +72,6 @@ def tri_selection(L):
 print(tri_selection(L))
 
 
-
-
 def tri_comptage(L):
     
     k=max(L)
