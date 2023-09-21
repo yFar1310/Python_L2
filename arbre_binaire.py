@@ -99,8 +99,6 @@ class ABR:
                 return True
             else:
                 return False
-        
-        
 A1 = ABR()
 A1.ajouts(6)
 A2 = ABR()
