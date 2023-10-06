@@ -10,3 +10,4 @@ def fibonacci_recursive(n):
 n_terms = 10  # Nombre de termes à afficher
 for i in range(n_terms):
     print(fibonacci_recursive(i))
+
